@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Poppins&family=Prompt:ital,wght@0,600;1,300&family=Roboto+Condensed&family=Titillium+Web:wght@300&display=swap');
+
+:root {
+  --primary: rgb(255, 221, 0);
+  --dark: black;
+  --body: rgb(19, 18, 18);
+  --box-shadow: 0 8px 22px black;
+}
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  color: var(--body)
+}
+
+h1,h2,h3,h4, h5, h6
+.display-4{
+color: var(--dark)
+}
+
+a{
+color: var(--dark);
+text-decoration: none;
+}
+
+.hero {
+  background-image: url("/assets/images/dark-horse-sunset.jpg") ;
+}
