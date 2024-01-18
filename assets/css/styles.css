@@ -15,9 +15,8 @@ body {
   font-family: 'Rubik', sans-serif;
   font-family: 'Titillium Web', sans-serif;
   line-height: 1.5;
-
+  
 }
-
 h1,h2, h3, h4
 {
   font-family: "Raleway", sans-serif;;
@@ -114,83 +113,7 @@ margin-bottom: 10%;
 }
 
 /* From section */
-/* INDEX3 */
-.question-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  align-items: left;
-  width: 100%;
-  height: 100%;
-  margin: 40px 0 0 8%;
-  color:#b4a9a9
-}
-p {
-  font-family:monospace;
-  margin: 5px;
-  font-size: 20px;
-}
-.answers-list {
-  list-style: none;
-  padding: 0;
-}
 
-.info label {
-font-size: large;
-}
-
-.info label, .info input {
- width: 40%;
- height: 40px;
- margin: 2%;
- font-size: large;
-}
-.question-block {
-  width: 100%;
- height: 100%;
- margin: 2%;
- font-size: large;
- color: #b4a9a9;
- margin: 2% 0 0 ;
-}
-.answers {
-  margin: 2% 0 0;
-  width: 100%;
-}
-#question-textarea {
-  width: 50%;
-  height: 150px;
-  font-size: large;
-}
-button{
-  cursor: pointer; 
-  border: 1px solid transparent; 
-  background-color: rgb(255, 255, 255);
-  opacity: 80%;
-  height: 60px; 
-  width: 20%; 
-  margin: 5%;
-  margin-left: 22%;
-  margin-bottom: 10%;
-  color: #0a0909; 
-  font-size: 1.5em; 
-  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
-text-decoration: none;
-transition: all .5s;
-}
-button:hover{
-  background-color: rgb(27, 26, 26);
-  color:#e0dddd;
-  opacity: 60%;
-  }
-  @media(max-width: 991px){
-    .question-container{
-      width: 100%;
-    }
-    .button{
-      width: 100%;
-    }
-  }
 
 /* Footer */
 #footer {
