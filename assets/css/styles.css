@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Poppins&family=Prompt:ital,wght@0,600;1,300&family=Roboto+Condensed&family=Titillium+Web:wght@300&display=swap');
+
 /* General styles */
 :root {
   --primary: rgb(255, 221, 0);
@@ -6,6 +7,7 @@
   --body: rgb(19, 18, 18);
   --box-shadow: 0 8px 22px black;
 }
+
 body {
   font-family: 'Barlow', sans-serif;
   font-family: 'Kanit', sans-serif;
@@ -15,29 +17,39 @@ body {
   font-family: 'Rubik', sans-serif;
   font-family: 'Titillium Web', sans-serif;
   line-height: 1.5;
-  
 }
-h1,h2, h3, h4
-{
-  font-family: "Raleway", sans-serif;;
-font-weight: 700;
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Raleway", sans-serif;
+  ;
+  font-weight: 700;
 }
-a{
+
+a {
   color: #ffc451;
   text-decoration: none;
 }
+
 a:hover {
   color: #ffd584;
   text-decoration: none;
 }
+
 span {
   color: #ffc451;
 }
+
+.card-body .icon .bi {
+  font-size: 2rem;
+  color: rgb(226, 178, 33);
+}
+
 /* Back to top button */
 .back-to-top {
   position: fixed;
-  visibility: hidden;
-  opacity: 0;
   right: 15px;
   bottom: 15px;
   z-index: 996;
@@ -47,64 +59,77 @@ span {
   border-radius: 4px;
   transition: all 0.4s;
 }
+
 .back-to-top i {
   font-size: 28px;
   color: #151515;
   line-height: 0;
 }
+
 .back-to-top:hover {
   background: #151515;
 }
+
 .back-to-top:hover i {
   color: #ffc451;
 }
+
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
 }
+
 /* Navigation links */
 .container .navbar-brand {
   font-family: "Raleway", sans-serif;
-  color:#222222;
+  color: #222222;
   font-weight: 800;
 }
+
 .nav-link {
   font-weight: 500;
 }
-.nav-link a:hover{
-color: #ffc451;
+
+.nav-link a:hover {
+  color: #ffc451;
 }
+
 /* Hero section */
 .hero {
-  background: url("assets/css/images/dark-horse-sunset.jpg") ;
+  background: url("../images/dark-horse-sunset.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
   z-index: 2;
 }
-.hero::after{
+
+.hero::after {
   content: "";
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
-  left:0;
+  left: 0;
   z-index: -1;
 }
-.hero .btn{
+
+.hero .btn {
   width: 30%;
   height: auto;
 }
-.hero .btn:hover{
-  color:black;
+
+.hero .btn:hover {
+  color: black;
   background-color: transparent;
 }
+
 /* Gallery section */
 .carousel-inner {
-width: 60%;
-height: 40%;
-margin-bottom: 10%;
+  width: 60%;
+  height: 40%;
+  margin-bottom: 10%;
 }
+
 .sr-only {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: larger;
@@ -113,12 +138,12 @@ margin-bottom: 10%;
 }
 
 /* From section */
-.form-container{
-justify-content: center;
-align-items: center;
-width: 60%;
-height:auto;
-margin-bottom: 20%;
+.form-container {
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: auto;
+  margin-bottom: 20%;
 }
 
 
@@ -129,14 +154,17 @@ margin-bottom: 20%;
   color: #fff;
   font-size: 14px;
 }
+
 #footer .footer-top {
   background: #151515;
   border-bottom: 1px solid #222222;
   padding: 60px 0 30px 0;
 }
+
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
 }
+
 #footer .footer-top .footer-info h3 {
   font-size: 28px;
   margin: 0 0 20px 0;
@@ -145,10 +173,12 @@ margin-bottom: 20%;
   font-weight: 700;
   text-transform: uppercase;
 }
+
 #footer .footer-top .footer-info h3 {
   color: #f3f1ee;
   font-family: "Raleway", sans-serif;
 }
+
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
@@ -156,6 +186,7 @@ margin-bottom: 20%;
   font-family: "Raleway", sans-serif;
   color: #fff;
 }
+
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -170,11 +201,13 @@ margin-bottom: 20%;
   height: 36px;
   transition: 0.3s;
 }
+
 #footer .footer-top .social-links a:hover {
   background: #ffc451;
   color: #151515;
   text-decoration: none;
 }
+
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
@@ -182,41 +215,50 @@ margin-bottom: 20%;
   position: relative;
   padding-bottom: 12px;
 }
+
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
 }
+
 #footer .footer-top .footer-links ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
+
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
   color: #ffc451;
   font-size: 18px;
   line-height: 1;
 }
+
 #footer .footer-top .footer-links ul li {
   padding: 10px 0;
   display: flex;
   align-items: center;
 }
+
 #footer .footer-top .footer-links ul li:first-child {
   padding-top: 0;
 }
+
 #footer .footer-top .footer-links ul a {
   color: #fff;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
+
 #footer .footer-top .footer-links ul a:hover {
   color: #ffc451;
 }
+
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
 }
+
 #footer .credits {
   padding-top: 10px;
   text-align: center;
