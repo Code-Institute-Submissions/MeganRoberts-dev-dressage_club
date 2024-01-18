@@ -11,18 +11,15 @@ body {
   line-height: 1.5;
   color: var(--body)
 }
-
 h1,h2,h3,h4, h5, h6
 .display-4 {
 color: var(--dark);
 font-weight: 700;
 }
-
 a{
 color: var(--dark);
 text-decoration: none;
 }
-
 /* Hero section */
 .hero {
   background: url("assets/css/images/dark-horse-sunset.jpg") ;
@@ -38,7 +35,6 @@ text-decoration: none;
   position: absolute;
   top: 0;
   left:0;
-
   z-index: -1;
 }
 .hero .btn{
@@ -48,4 +44,37 @@ text-decoration: none;
 .hero .btn:hover{
   color:black;
   background-color: transparent;
+}
+/* Events section */ 
+#events {
+  padding-top: 20px;
+}
+
+#events .icon-box {
+  padding-left: 15px;
+}
+
+#events .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 10px 60px;
+}
+
+#events .icon-box i {
+  font-size: 48px;
+  float: left;
+  color: #ffc451;
+}
+
+#events .icon-box p {
+  font-size: 15px;
+  color: #848484;
+  margin-left: 60px;
+}
+
+#events .image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
 }
