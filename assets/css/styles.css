@@ -113,6 +113,13 @@ margin-bottom: 10%;
 }
 
 /* From section */
+.container{
+justify-content: center;
+align-items: center;
+width: 60%;
+height:auto;
+margin-bottom: 20%;
+}
 
 
 /* Footer */
