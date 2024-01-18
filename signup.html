@@ -1,44 +1,62 @@
-<!-- Main page -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Dressage Club</title>
-    <meta name="description" content="Dressage club for riders">
-    <meta name="keywords" content="dressage club, our mission, our history, our values, our members">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,600;1,300&family=Roboto+Condensed&display=swap" rel="stylesheet">
-
-    <!-- Template main CSS file -->
-    <link rel="stylesheet" href="assets/css/styles.css"> 
-
+  <title>Dressage Club</title>
 </head>
+
 <body>
-
-<!-- Navigation links -->
-<nav>
-    <a href="index.html" class="current-page" aria-label="Go to the main page">Home</a>
-    <a href="projects.html" aria-label="Go to the projects gallery">Gallery</a>
-    <a href="booking.html" aria-label="Go to the booking form">Sign up</a>
-</nav>
-<header>
-    <!-- Logo, company name, motto -->
-
-    <div class="main-container">
-    <div class="left-photo"></div>
-            <div class="right-text">
-                <h1>Dressage Club</h1>
-                <h4>We are an independent club who support Dressage riders and horses in the UK. We work with national governing bodies to ensure saftey and fair play within the sport aswell as diversity, equallity for riders and protection of animal rights. We also have a handy newsletter to keep you infromed on events, news and trends. Come and join us and enjoy 30% off at any Equestrian clothes shop of your choice.</h4>
-                <button>Sign up</button>
-            </div>
+  <!-- Navigation links -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Dressage Club<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">Sign up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><!-- Navigation ends -->
+  <!-- Hero section -->
+  <div class="hero vh-100 d-flex align-items-center">
+    <div class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 mx-auto text-center">
+            <h1 class="display-4">Your Club, Your Guide, Your Journey to Excellence</h1>
+            <p>
+              We are an independent, UK based club that helps both horse and rider pursue their Dressage career with
+              ease.
+              Let use help you with up coming events, training or just simply staying in the know.
+              We believe in a clean sport, where diversity, equallity and animal welfare is at the forefront.</p>
+            <button type="button" class="btn btn-primary btn-lg" href="singup.html">Join Now</button>
+          </div>
         </div>
+      </div>
+    </div>
+  </div><!-- Hero ends -->
     <!--- Form -->
     <section>
       <div class="question-container">
@@ -98,8 +116,8 @@
 </form>
 </section>
 </main>
- <!-- Footer -->
- <footer id="footer">
+  <!-- Footer -->
+  <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -113,9 +131,9 @@
                 <strong>Email:</strong> yesclub@dressage.com<br>
               </p>
               <div class="social-links mt-3">
-                <a href="https://twitter.com/?lang=en" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="https://en-gb.facebook.com/" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.instagram.com/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://twitter.com/?lang=en" class="X"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://en-gb.facebook.com/" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/" class="instagram"><i class="bi bi-instagram"></i></a>
               </div>
             </div>
           </div>
@@ -127,5 +145,8 @@
         Dressage Club <strong><span>GB</span></strong>. All Rights Reserved
       </div>
    <footer>
+    <!-- Back to top button -->
+    <a href="#header" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
  </body>
 </html>
