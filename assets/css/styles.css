@@ -101,9 +101,6 @@ color: #ffc451;
 }
 
 /* Gallery section */
-$('.carousel').carousel({
-  interval: 2000
-})
 .carousel-inner {
 width: 60%;
 height: 40%;
@@ -115,7 +112,6 @@ margin-bottom: 10%;
   color: #151515;
   font-weight: 400;
 }
-
 /* Footer */
 #footer {
   background: black;
@@ -139,9 +135,12 @@ margin-bottom: 10%;
   font-weight: 700;
   text-transform: uppercase;
 }
+
 #footer .footer-top .footer-info h3 {
   color: #f3f1ee;
+  font-family: "Raleway", sans-serif;
 }
+
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
