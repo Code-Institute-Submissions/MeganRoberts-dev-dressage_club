@@ -38,6 +38,14 @@ a:hover {
   text-decoration: none;
 }
 
+a.nav-link.active {
+  text-decoration: underline;
+  background-color: #ffc451;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.75em auto;
+}
+
 span {
   color: #ffc451;
 }
@@ -88,10 +96,13 @@ span {
 
 .nav-link {
   font-weight: 500;
+  margin: 0.75em;
+  border-radius: 0.5em;
 }
 
-.nav-link a:hover {
-  color: #ffc451;
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: #ffc451;
+  border-radius: 0.5em;
 }
 
 /* Hero section */
@@ -124,10 +135,18 @@ span {
 }
 
 /* Gallery section */
-.carousel-inner {
-  width: 60%;
-  height: 40%;
-  margin-bottom: 10%;
+.carousel-container {
+  padding: 0;
+}
+
+.carousel-item img {
+  min-height: 70vh;
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .sr-only {
