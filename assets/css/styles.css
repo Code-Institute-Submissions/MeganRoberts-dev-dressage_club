@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Poppins&family=Prompt:ital,wght@0,600;1,300&family=Roboto+Condensed&family=Titillium+Web:wght@300&display=swap');
+/* General styles */
 :root {
   --primary: rgb(255, 221, 0);
   --dark: black;
@@ -12,9 +13,9 @@ body {
 }
 
 h1,h2,h3,h4, h5, h6
-.display-4{
-
-color: var(--dark)
+.display-4 {
+color: var(--dark);
+font-weight: 700;
 }
 
 a{
@@ -22,12 +23,29 @@ color: var(--dark);
 text-decoration: none;
 }
 
+/* Hero section */
 .hero {
-  background-image: url("/workspace/dressage.club/assets/images/dark-horse-sunset.jpg") ;
+  background: url("assets/css/images/dark-horse-sunset.jpg") ;
   background-position: center;
   background-size: cover;
-  background-position: fixed;
+  position: relative;
+  z-index: 2;
+}
+.hero::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left:0;
+
+  z-index: -1;
 }
 .hero .btn{
-
+  width: 30%;
+  height: auto;
+}
+.hero .btn:hover{
+  color:black;
+  background-color: transparent;
 }
