@@ -7,14 +7,20 @@
   --box-shadow: 0 8px 22px black;
 }
 body {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   line-height: 1.5;
 
 }
 
-h1,h2,h3,h4, h5, h6
-.display-4 {
-
+h1,h2
+{
+  font-family: "Raleway", sans-serif;;
 font-weight: 700;
 }
 
@@ -30,7 +36,6 @@ span {
   color: #ffc451;
 }
 /* Back to top button */
-
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -44,21 +49,17 @@ span {
   border-radius: 4px;
   transition: all 0.4s;
 }
-
 .back-to-top i {
   font-size: 28px;
   color: #151515;
   line-height: 0;
 }
-
 .back-to-top:hover {
   background: #151515;
 }
-
 .back-to-top:hover i {
   color: #ffc451;
 }
-
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
@@ -66,16 +67,15 @@ span {
 /* Navigation links */
 
 .container .navbar-brand {
-  font-family: 'Kanit', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Prompt', sans-serif;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Rubik', sans-serif;
-  font-family: 'Titillium Web', sans-serif;
-  color: #ffc451;
-  font-weight: 200;
+  font-family: "Raleway", sans-serif;
+  color:#222222;
+  font-weight: 800;
 }
-.nav-item a:hover{
+
+.nav-link {
+  font-weight: 500;
+}
+.nav-link a:hover{
 color: #ffc451;
 }
 
@@ -105,7 +105,7 @@ color: #ffc451;
   background-color: transparent;
 }
 
-
+/* Gallery section */
 
 /* Footer */
 #footer {
@@ -130,11 +130,9 @@ color: #ffc451;
   font-weight: 700;
   text-transform: uppercase;
 }
-
 #footer .footer-top .footer-info h3 {
   color: #f3f1ee;
 }
-
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
