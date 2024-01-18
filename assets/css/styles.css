@@ -8,6 +8,15 @@
   --box-shadow: 0 8px 22px black;
 }
 
+html, body {
+  height: 100%;
+}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+
 body {
   font-family: 'Barlow', sans-serif;
   font-family: 'Kanit', sans-serif;
@@ -157,13 +166,6 @@ span {
 }
 
 /* From section */
-.form-container {
-  justify-content: center;
-  align-items: center;
-  width: 60%;
-  height: auto;
-  margin-bottom: 20%;
-}
 
 
 /* Footer */
