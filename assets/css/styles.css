@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Poppins&family=Prompt:ital,wght@0,600;1,300&family=Roboto+Condensed&family=Titillium+Web:wght@300&display=swap');
-
 :root {
   --primary: rgb(255, 221, 0);
   --dark: black;
@@ -14,6 +13,7 @@ body {
 
 h1,h2,h3,h4, h5, h6
 .display-4{
+
 color: var(--dark)
 }
 
@@ -23,5 +23,11 @@ text-decoration: none;
 }
 
 .hero {
-  background-image: url("assets/images/");
+  background-image: url("/workspace/dressage.club/assets/images/dark-horse-sunset.jpg") ;
+  background-position: center;
+  background-size: cover;
+  background-position: fixed;
+}
+.hero .btn{
+
 }
