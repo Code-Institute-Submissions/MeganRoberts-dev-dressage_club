@@ -1,0 +1,131 @@
+<!-- Main page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dressage Club</title>
+    <meta name="description" content="Dressage club for riders">
+    <meta name="keywords" content="dressage club, our mission, our history, our values, our members">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,600;1,300&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <!-- Template main CSS file -->
+    <link rel="stylesheet" href="assets/css/styles.css"> 
+
+</head>
+<body>
+
+<!-- Navigation links -->
+<nav>
+    <a href="index.html" class="current-page" aria-label="Go to the main page">Home</a>
+    <a href="projects.html" aria-label="Go to the projects gallery">Gallery</a>
+    <a href="booking.html" aria-label="Go to the booking form">Sign up</a>
+</nav>
+<header>
+    <!-- Logo, company name, motto -->
+
+    <div class="main-container">
+    <div class="left-photo"></div>
+            <div class="right-text">
+                <h1>Dressage Club</h1>
+                <h4>We are an independent club who support Dressage riders and horses in the UK. We work with national governing bodies to ensure saftey and fair play within the sport aswell as diversity, equallity for riders and protection of animal rights. We also have a handy newsletter to keep you infromed on events, news and trends. Come and join us and enjoy 30% off at any Equestrian clothes shop of your choice.</h4>
+                <button>Sign up</button>
+            </div>
+        </div>
+    <!--- Form -->
+    <section>
+      <div class="question-container">
+      <h2>Quick Question!</h2>
+       <p>Do you enjoy Dressage?</p>
+        <ul class="answers-list">
+          <li>
+            <label for="q1-a1">
+              <input type="radio" id="q1-a1" name="q1" value="true" />
+              100% Yes
+            </label>
+          </li>
+          <li>
+            <label for="q1-a2">
+              <input type="radio" id="q1-a2" name="q1" value="false" />
+              False
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+    </div>
+  </section>
+  <section>
+      <form method="post" action="Thank You">
+        <div class="question-container">
+          <h2>Your Info</h2>
+          <div class="info">
+            <label for="members-name">Name:</label>
+            <input type="text" name="members-name" id="members-name" />
+          </div>
+          <div class="info">
+            <label for="members-email">Email:</label>
+            <input type="email" name="members-email" id="members-email" />
+          </div>
+          <div class="info">
+            <label for="birth-date">D.O.B.<span class="sr-only">(Date of Birth)</span></label>
+            <input type="date" name="birth-date" id="birth-date" />
+          </div>
+              <div class="question-block">
+                <label for="customer">Are you a member of British Dressage?</label>
+              </div>
+              <div class="answers">
+                <select name="customer" id="customer" required>
+                  <option value="select">Select an option</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </div>
+              <div class="question-block">
+                <label for="question-textarea">Do you have any questions:</label>
+              </div>
+              <div class="answers">
+                <textarea id="question-textarea" name="questions" rows="5" cols="24" placeholder="We would love to hear from you "></textarea>
+              </div>
+          </div>
+<button type="submit">Send</button>
+</form>
+</section>
+</main>
+ <!-- Footer -->
+ <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Dressage Club<span>.</span></h3>
+              <p>
+                The Equest Center<br>
+               London, POBOX 151<br><br>
+                <strong>Phone:</strong> 0300932812<br>
+                <strong>Email:</strong> yesclub@dressage.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="https://twitter.com/?lang=en" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://en-gb.facebook.com/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="copyright">
+        Dressage Club <strong><span>GB</span></strong>. All Rights Reserved
+      </div>
+   <footer>
+ </body>
+</html>
