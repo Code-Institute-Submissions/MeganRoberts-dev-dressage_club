@@ -53,13 +53,19 @@ I've used CSS `:root` variables to easily update the global colour scheme by cha
 ### New Site Users
 
 - As a new site user, I would like to simply navigate through the site, so that I can accsess the page I want quickly.
-- As a new site user, I would like to have clear content, so that I can obtain information easily and understand the site.
-- As a new site user, I would like to use the contact / sign up form without complications.
-- As a new site user, I would like to view and use the site on my moible, tablet or desktop.
+- As a new site user, I would like to have clear content, so that I can read information easily and understand the site.
+- As a new site user, I would like to use an easy signup form, so that I can be assured I have signed up.
+- As a new site user, I would like to view and use the site on my moible, tablet or desktop, so that I can have full access.
 
 ### Returning Site Users
 
 - As a returning site user, I would like to use the contact info in the footer multiple times. 
+
+### Site Administrator ###
+
+- As a site administrator, I should have easy read HTML an CSS code so that other developers can work with the code.
+-  As a site administrator, I should be able to easily add or remove new features so that I can maniuplate the website.
+- As a site administrator, I should have flexible code that allows me to add new content at the request of a client. 
 
 ## Wireframes
 
