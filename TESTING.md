@@ -2,13 +2,7 @@
 
 Return back to the [README.md](README.md) file.
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section, you need to convince the assessors that you have conducted enough testing to legitimately believe that the site works well.
-Essentially, in this part, you should go over all of your project's features, and ensure that they all work as intended,
-with the project providing an easy and straightforward way for the users to achieve their goals.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+The site has been tested through HTML and CSS validators and in 3 different browsers for a Windows PC - Chrome, Firefox and Edge, the site passed all test. Manual testing was also conducted for the main feauters, all of these test were also passed. The site proved to be responsive when tested on different devices - including mobile (iPhone 12 mini and Samsung Galaxy S20), ipad and desktop. Lighthouse audit was conducted, the site met satisfactory requirements but did show some minor warnings. I have noted the fixed and remaining bugs for the site in this testing file. Please see below to view all of my findings. 
 
 ## Code Validation
 
@@ -25,7 +19,7 @@ My deployed URL is - https://validator.w3.org/nu/?doc=https%3A%2F%2Fmeganroberts
 | --- | --- | --- | --- |
 | Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmeganroberts-dev.github.io%2Fdressage_club%2F) | ![screenshot](../dressage_club/documenation/home-page.png) | Delineated sections, clear images, heading, text and icons. Responsive.|
 | Gallery | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmeganroberts-dev.github.io%2Fdressage_club%2F) | ![screenshot](../dressage_club/documenation/gallery.png) | Clear heading, responsive and working carousel on all devices |
-| Sign up | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmeganroberts-dev.github.io%2Fdressage_club%2F) | ![screenshot](../dressage_club/documenation/desktop-signup-page.png) | Clear heading, responsive form and working submit button. Fill field feauture working.|
+| Sign up | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmeganroberts-dev.github.io%2Fdressage_club%2F) | ![screenshot](../dressage_club/documenation/signup.page.png) | Clear heading, responsive form and working submit button. Fill field feauture working.|
 | Confirmation | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmeganroberts-dev.github.io%2Fdressage_club%2F) | ![screenshot](../dressage_club/documenation/thankyou-page.png) | Text is clear, all links work and the page will refresh back to the home page after 10 seconds |
 | Navigation (desktop) | (https://meganroberts-dev.github.io/dressage_club/)| ![screenshot](../dressage_club/documenation/navbar-desktop.png) | Navigation links click through to correct location and club name navigates to home page|
 | Navigation (mobile) | (https://meganroberts-dev.github.io/dressage_club/)| ![screenshot](../dressage_club/documenation/navbar-mobile.png) | Navigation links click through to correct location and club name navigates to home page |
@@ -77,22 +71,13 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## User Story Testing
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Testing user stories is actually quite simple, once you've already got the stories defined on your README.
-
-Most of your project's **features** should already align with the **user stories**,
-so this should as simple as creating a table with the user story, matching with the re-used screenshot
-from the respective feature.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 | User Story | Screenshot |
 | --- | --- |
 | As a new site user, I would like to simply navigate through the site, so that I can accsess the page I want quickly. | ![screenshot](../dressage_club/documenation/navbar-desktop.png) |
 | As a new site user, I would like to have clear content, so that I can read information easily and understand the site. | ![screenshot](../dressage_club/documenation/about-box.png) |
-| As a new site user, I would like to use an easy signup form, so that I can be assured I have signed up.| ![screenshot](../dressage_club/documenation/desktop-signup-page.png) |
-| As a new site user, I would like to view and use the site on my moible, tablet or desktop, so that I can have full access.| ![screenshot](../dressage_club/documenation/mobile-home-page.png) |
+| As a new site user, I would like to use an easy and efficient signup form, so that I can be sure I have signed up.| ![screenshot](../dressage_club/documenation/signup.page.png) |
+| As a new site user, I would like to view and use the site on my moible, tablet or desktop, so that I can have full access.| ![screenshot](../dressage_club/documenation/iphone-home.png) |
 | As a returning site user, I would like to use the contact info in the footer multiple times.| ![screenshot](../dressage_club/documenation/footer-icons.png) |
 |As a site administrator, I should have easy read HTML an CSS code so that other developers can work with the code. | ![screenshot](../dressage_club/documenation/w3-validator.png) |
 | As a site administrator, I should be able to easily add or remove new features so that I can maniuplate the website. | ![screenshot](../dressage_club/documenation/CSS-validator.png) |
@@ -113,48 +98,36 @@ from the respective feature.
 
     - To fix this, I added correct values to each option.
 
-- Python `'ModuleNotFoundError'` when trying to import module from imported package
+- Bug in index html file. Fixed Jan 19th, 2024.
 
-    ![screenshot](documentation/bug03.png)
+    ![screenshot](../dressage_club/documenation/bud-validation.png)
 
-    - To fix this, I _____________________.
+    - To fix this, I corrected the validation errors.
 
-- Django `TemplateDoesNotExist` at /appname/path appname/template_name.html
+- Bug in form section of signup. Html not working in preview. Fixed Jan 19th, 2024.
 
-    ![screenshot](documentation/bug04.png)
+    ![screenshot](../dressage_club/documenation/bug-section>form.png)
 
-    - To fix this, I _____________________.
+    - To fix this, I changed the "form" attribute to "section".
 
-- Python `E501 line too long` (93 > 79 characters)
+- Bug in carousel. Images not centered. Fixed Jan 19th, 2024.
 
-    ![screenshot](documentation/bug04.png)
+    ![screenshot](../dressage_club/documenation/bug-carousel.png)
 
-    - To fix this, I _____________________.
+    - To fix this, I used bootstrap in the validation and added buttons for every image.
 
 ## Unfixed Bugs
 
-- The container of the navbar links  
+- Container of navbar links on desktop.
 
-    ![screenshot](documentation/unfixed-bug01.png)
+    ![screenshot](../dressage_club/documenation/navbar-desktop.png)
 
-    - Attempted fix: I tried to add additional media queries to handle this, but things started becoming too small to read.
+    - Attempted fix: I tried changing the size of the container but this effected the burger dropdown menu on mobile.
 
-- For PP3, when using a helper `clear()` function, any text above the height of the terminal does not clear, and remains when you scroll up.
+- Burger menu links on tablet/ mobile.
 
-    ![screenshot](documentation/unfixed-bug02.png)
+    ![screenshot](../dressage_club/documenation/burger-dropdown.png)
 
-    - Attempted fix: I tried to adjust the terminal size, but it only resizes the actual terminal, not the allowable area for text.
-
-- When validating HTML with a semantic `section` element, the validator warns about lacking a header `h2-h6`. This is acceptable.
-
-    ![screenshot](documentation/unfixed-bug03.png)
-
-    - Attempted fix: this is a known warning and acceptable, and my section doesn't require a header since it's dynamically added via JS.
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-If you legitimately cannot find any unfixed bugs or warnings, then use the following sentence:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+    - Attempted fix: I tried changing the size of the container but this effected the navbar on desktop and the spacing between links.
 
 There are no remaining bugs that I am aware of.
