@@ -1,7 +1,10 @@
-# [DRESSAGE CLUB]( https://meganroberts-dev.github.io/dressage_club/)
+# [DRESSAGE CLUB]( https://meganroberts-dev.github.io/dressage_club/) 
+
+https://meganroberts-dev.github.io/dressage_club/
+
 ![screenshot](../dressage_club/documenation/responsive-img.png)
 
-Dressage Club 
+Dressage Club
 
 # Author 
 Megan Roberts 
