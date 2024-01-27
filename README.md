@@ -2,7 +2,7 @@
 
 https://meganroberts-dev.github.io/dressage_club/
 
-![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/CSS-validator.png?raw=true)
+![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/responsive-img.png?raw=true)
 
 Dressage Club
 
@@ -29,7 +29,7 @@ Sporting clubs usually only have one or two main colours that are assostaied wit
 
 I used coolors.co for my colour pallete. (https://coolors.co/000000-ffc451-ffffff) 
 
-![screenshot](../dressage_club/documenation/color-pad.png)
+![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/color-pad.png?raw=true)
 
 I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
 
@@ -42,7 +42,7 @@ I've used CSS `:root` variables to easily update the global colour scheme by cha
 }
 
 ```
-![screenshot](../dressage_club/documenation/roots.png)
+![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/roots.png?raw=true)
 
 ### Typography
 
@@ -81,13 +81,13 @@ I've used [Figma](https://www.figma.com/file/l2P9ZpD1xivVZg4eyKb2yn/Dressage-Clu
 <summary> Click here to see the Mobile Wireframes </summary>
 
 Home
-  - ![screenshot](../dressage_club/documenation/mobile-home-page.png)
+  - ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/mobile-home-page.png?raw=true)
 
 Gallery
-  - ![screenshot](../dressage_club/documenation/mobile-gallery-page.png)
+  - ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/mobile-gallery-page.png?raw=true)
 
 Signup
-  - ![screenshot](../dressage_club/documenation/mobile-signup-page.png)
+  - ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/mobile-signup-page.png?raw=true)
 
 </details>
 
@@ -97,13 +97,13 @@ Signup
 <summary> Click here to see the Tablet Wireframes </summary>
 
 Home
-  - ![screenshot](../dressage_club/documenation/home-page-tablet.png)
+  - ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/home-page-tablet.png?raw=true)
 
 Gallery
-  - ![screenshot](../dressage_club/documenation/gallery-page-tablet.png)
+  - ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/gallery-page-tablet.png?raw=true)
 
 Signup
-  - ![screenshot](../dressage_club/documenation/signup-page-tablet.png)
+  - ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/signup-page-tablet.png?raw=true)
 
 </details>
 
@@ -116,10 +116,10 @@ Home
   - ![screenshot](../dressage_club/documenation/desktop-home-page.png)
 
 Gallery
-  - ![screenshot](../dressage_club/documenation/desktop-gallery-page.png)
+  - ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/desktop-gallery-page.png?raw=true)
 
 Signup
-  - ![screenshot](../dressage_club/documenation/desktop-signup-page.png)
+  - ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/desktop-signup-page.png?raw=true)
 </details>
 
 ## Features
@@ -145,22 +145,22 @@ This project has implemented features:
 
     - Relevant icons that represent the type of event being promoted.
 
-![screenshot](../dressage_club/documenation/events-icon.png)
+![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/events-icon.png?raw=true)
 
 
 - **Social media links**
 
     - Social media icons in the footer that linked to relevant social pages that change color when hovering.
 
-![screenshot](../dressage_club/documenation/footer-icons.png)
-![screenshot](../dressage_club/documenation/facebook-social-link.png)
+![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/footer-icons.png?raw=true)
+![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/facebook-social-link.png?raw=true)
 
 - **Fill field**
 
     - A pop up will show to prompt user to fill out correctly before the form can be submited.
 
 
-![screenshot](../dressage_club/documenation/fill-field.png)
+![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/fill-field.png?raw=true)
 
 - **Dropdown menu**
 
@@ -172,14 +172,14 @@ This project has implemented features:
 
     - Responsive carousel with user friendly/ highlighted arrows. 
 
-![screenshot](../dressage_club/documenation/carousel-gallery.png)
+![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/carousel-gallery.png?raw=true)
 
 - **Confirmation page**
 
     - A confirmation page will show after the user submits the form. This page is set to return back to the home page after 10 seconds.  
 
-![screenshot](../dressage_club/documenation/thankyou-page.png)
-![screenshot](../dressage_club/documenation/home-page.png)
+![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/thankyou-page.png?raw=true)
+![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/home-page.png?raw=true)
 
 
 ### Future Features
