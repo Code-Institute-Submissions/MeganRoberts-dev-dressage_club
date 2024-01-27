@@ -2,7 +2,7 @@
 
 https://meganroberts-dev.github.io/dressage_club/
 
-![screenshot](../dressage_club/documenation/responsive-img.png)
+![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/CSS-validator.png?raw=true)
 
 Dressage Club
 
