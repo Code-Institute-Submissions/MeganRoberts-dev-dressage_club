@@ -11,12 +11,12 @@ Megan Roberts
 
 # Website Overview
 
-Welcome to an interactive Dressage Club site. This website is designed with Dressage enthusiasts in mind. Here users can find out when and where events are happening, enjoy a showcase of Dressage images through the gallery carousel and engage with the community through a user-friendly sign up form. The white theme with contrasting orange and black colour is a modern refrence to this typically old fashioned sport. The site also provides clarity and responsiveness.
+Welcome to an interactive Dressage Club site. This website is designed with Dressage enthusiasts in mind. Here users can find out when and where events are happening, enjoy a showcase of Dressage images through the gallery's carousel and engage with community through a user-friendly sign up page. The white theme with contrasting orange and black colour is a modern refrence to this typically old fashioned sport. The site also provides clarity and responsiveness on multiple devices.
 
 
 ## UX
 
-My reasons for chosing a modern and clean deigsn was not only appeal to younger users but also thosee who are older. The style is minimal but effective and easy to use and was built with both users in mind.  
+My reasons for chosing a modern and clean deigsn was to appeal to younger and older users, the sites style is minimal but effective with easy to use features / navigation because of this. 
 
 ### Colour Scheme
 
