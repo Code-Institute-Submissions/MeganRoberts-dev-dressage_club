@@ -2,7 +2,7 @@
 
 Return back to the [README.md](README.md) file.
 
-The site has been tested through HTML and CSS validators and in 3 different browsers for a Windows PC - Chrome, Firefox and Edge, the site passed all test. Manual testing was also conducted for the main feauters, all of these test were also passed. The site proved to be responsive when tested on different devices - including mobile (iPhone 12 mini and Samsung Galaxy S20), ipad and desktop. Lighthouse audit was conducted, the site met satisfactory requirements but did show some minor warnings. I have noted the fixed and remaining bugs for the site in this testing file. Please see below to view all of my findings. 
+The site has succesfully passsed through mupltile verfication testing. Indluing, HTML and CSS validators, multiple browsers - Chrome, Firefox and Edge- through a Windows PC and manual testing for the main feauters. The site aslo proved to be responsive when tested on different devices - including mobile (iPhone 12 mini and Samsung Galaxy S20), ipad and desktop. Lighthouse audit was then conducted, where the site met satisfactory requirements but did show some minor warnings. I have noted the fixed and remaining bugs for the site in this testing file. Please see below to find all of the results. 
 
 ## Code Validation
 
@@ -76,10 +76,10 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | --- | --- |
 | As a new site user, I would like to simply navigate through the site, so that I can accsess the page I want quickly. | ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/navbar-desktop.png?raw=true) |
 | As a new site user, I would like to have clear content, so that I can read information easily and understand the site. | ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/about-box.png?raw=true) |
-| As a new site user, I would like to use an easy and efficient signup form, so that I can be sure I have signed up.| ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/signup.page.png?raw=true) |
-| As a new site user, I would like to view and use the site on my moible, tablet or desktop, so that I can have full access.| ![screenshot](../dressage_club/documenation/iphone-home.png) |
+| As a new site user, I would like to use an easy signup form, so that I can be assured I have signed up correctly.| ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/signup.page.png?raw=true) |
+| As a new site user, I would like to view and use the site on my moible, tablet or desktop, so that I can have full access to the site.| ![screenshot](../dressage_club/documenation/iphone-home.png) |
 | As a returning site user, I would like to use the contact info in the footer multiple times.| ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/footer-icons.png?raw=true) |
-|As a site administrator, I should have easy read HTML an CSS code so that other developers can work with the code. | ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/w3-validator.png?raw=true) |
+| As a site administrator, I should have easy read HTML an CSS code so that other developers can work with / add to the code. | ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/w3-validator.png?raw=true) |
 | As a site administrator, I should be able to easily add or remove new features so that I can maniuplate the website. | ![screenshot](../dressage_club/documenation/CSS-validator.png) |
 | As a site administrator, I should have flexible code that allows me to add new content at the request of a client. | ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/confirmation.html-validator.png?raw=true) |
 

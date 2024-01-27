@@ -11,16 +11,16 @@ Megan Roberts
 
 # Website Overview
 
-Welcome to our interactive Dressage Club site. This website is designed for Dressage enthusiasts to discover when events are happening, enjoy the showcasing of Dressafe images through the gallery page carousel and engage with the clubs community through a user-friendly contact form. The white theme with a contrasting orange color is a modern refrence to this typically old fashioned sport. Also provides clarity, readability, and aesthetics.
+Welcome to an interactive Dressage Club site. This website is designed with Dressage enthusiasts in mind. Here users can find out when and where events are happening, enjoy a showcase of Dressage images through the gallery carousel and engage with the community through a user-friendly sign up form. The white theme with contrasting orange and black colour is a modern refrence to this typically old fashioned sport. The site also provides clarity and responsiveness.
 
 
 ## UX
 
-My reasons for chosing a modern deigsn was to appeal to younger users to encourage them to join. The design is also simple and easy to navigate as to also appeal to older users.  
+My reasons for chosing a modern and clean deigsn was not only appeal to younger users but also thosee who are older. The style is minimal but effective and easy to use and was built with both users in mind.  
 
 ### Colour Scheme
 
-Sporting clubs usually only have one or two main colours that are assostaied with it. I have chosen black and gold in this case. These colours are proffesional and work well when in contrast to one another. 
+Sporting clubs are usually assosiated with one or two main colours. I have opted black and gold in this case. These colours are proffesional and work well when in contrast to eachother. 
 
 - `black` used for primary text.
 - ` #ffc451;` used for primary highlights.
@@ -57,8 +57,8 @@ I've used CSS `:root` variables to easily update the global colour scheme by cha
 
 - As a new site user, I would like to simply navigate through the site, so that I can accsess the page I want quickly.
 - As a new site user, I would like to have clear content, so that I can read information easily and understand the site.
-- As a new site user, I would like to use an easy signup form, so that I can be assured I have signed up.
-- As a new site user, I would like to view and use the site on my moible, tablet or desktop, so that I can have full access.
+- As a new site user, I would like to use an easy signup form, so that I can be assured I have signed up correctly.
+- As a new site user, I would like to view and use the site on my moible, tablet or desktop, so that I can have full access to the site.
 
 ### Returning Site Users
 
@@ -66,7 +66,7 @@ I've used CSS `:root` variables to easily update the global colour scheme by cha
 
 ### Site Administrator ###
 
-- As a site administrator, I should have easy read HTML an CSS code so that other developers can work with the code.
+- As a site administrator, I should have easy read HTML an CSS code so that other developers can work with / add to the code.
 -  As a site administrator, I should be able to easily add or remove new features so that I can maniuplate the website.
 - As a site administrator, I should have flexible code that allows me to add new content at the request of a client. 
 
@@ -113,7 +113,7 @@ Signup
 <summary> Click here to see the Desktop Wireframes </summary>
 
 Home
-  - ![screenshot](../dressage_club/documenation/desktop-home-page.png)
+  - ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/desktop-home-page.png?raw=true)
 
 Gallery
   - ![screenshot](https://github.com/MeganRoberts-dev/dressage_club/blob/main/documenation/desktop-gallery-page.png?raw=true)
@@ -126,13 +126,14 @@ Signup
 
 This project has implemented features:
 
-- Home page with an about box and events section with relevant icons.
-- Fixed back to top arrow on the right side of each page.
+- Home page with an about box and signup button.
+- Events section with relevant icons.
+- Fixed "back to top" arrow on the right hand side of each page.
 - Clear images.
-- Sign up page contains a form where a user provides info about themselves to join the club.
-- Successful form submission is confirmed by "thank you" message on seperate page.
+- Sign up page with a form where users can fill and submit.
+- Successful form submission page confirmed by "thank you" message, that diverts you back to the home page after 10 seconds.
 - Responsive design with layout changing sections for smaller devices, including a dropdown burger menu.
-- Smooth scrolling
+- Smooth scrolling.
 
 ### Existing Features
 - **Feature box**
@@ -185,11 +186,11 @@ This project has implemented features:
 ### Future Features
 
 - Newsletter sign up in footer
-    - Add an email form section in the footer for users to autmatically sign up to a newsletter, using bootstrap (https://getbootstrap.com/docs/5.0/forms/overview/). A newsletter is an easy way to boost the clubs network.
+    - Add an email form section in the footer for users to autmatically sign up to a newsletter, using bootstrap (https://getbootstrap.com/docs/5.0/forms/overview/). A newsletter is an easy way to boost a clubs network.
 - Additional page for events
     - This page would include training events aswell as compeition events and a search bar for users to find events near them. This feature will make the wesbite more inclusive for users. 
 - Multiple carousels in gallery page
-    - Add more but smaller image carousels with bootstrap (https://getbootstrap.com/docs/4.0/components/carousel/). Tis will give a better aesthetic in my opinion. 
+    - Add multiple image carousels with bootstrap (https://getbootstrap.com/docs/4.0/components/carousel/). This will bost the websites asethetic.  
 
 ## Tools & Technologies Used
 
